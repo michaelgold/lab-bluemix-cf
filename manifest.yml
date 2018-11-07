@@ -1,12 +1,12 @@
 ---
 # This manifest deploys a Python Flask application with a Redis database
 applications:
-- name: nyu-lab-bluemix
+- name: nyu-lab-bluemix-mg
   memory: 64M
-  instances: 2
+  instances: 1
   timeout: 180
   #random-route: true
-  host: nyu-lab-bluemix
+  host: nyu-lab-bluemix-mg
   domain: mybluemix.net
   path: .
   disk_quota: 1024M
